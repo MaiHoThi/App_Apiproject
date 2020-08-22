@@ -1,0 +1,252 @@
+#content{
+    width: 80%;
+    margin: auto;
+}
+ #content h1{
+text-align: center;
+font-family:'Courier New', Courier, monospace ;
+
+ }
+ /* Header */
+ #menu{
+    width: 100%;
+    background-image: url('/storage/public/a5.jpg');
+  }
+  #menu a{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace ;
+
+  }
+  #menu  li{
+    display: inline-block;
+    padding: 10px;
+
+  }
+  #menu  li a{
+   text-decoration: none;
+   color: black;
+    
+  }
+  
+  #menu .icon{
+    font-size: 30px;
+  }
+/* ADD */
+#insert{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+
+}
+.mama{
+    width: 80%;
+    margin: auto; 
+    box-shadow: 5px 5px 5px 5px slategray;
+
+}
+.mama td, .mama th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .mama tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .mama tr:hover {background-color: #ddd;}
+  
+  .mama th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .mama tr img{
+      width: 100px;
+  }
+.insert{
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px slategray;
+}
+.insert input[type=number], input[type=file] , input[type=text] , select, textarea {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+.insert button{
+    width: 80%;
+    padding: 10px;
+margin: 10%;
+background-color: brown;
+}
+.insert #status{
+height: 200px;
+}
+
+
+.table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .table tr:hover {background-color: #ddd;}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  .table tr img{
+      width: 100px;
+  }
+  /* category */
+#sidebar {
+    z-index: 1000;
+    position: absolute;
+    left: 250px;
+    width: 250px;
+    height: 500px;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #37474F;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+
+#sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+.nav{
+    list-style-type: none;
+}
+
+#sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar header a:hover {
+    color: #fff;
+}
+#sidebar li{
+    border-bottom: 1px solid #455A64;
+    padding: 10px;
+}
+#sidebar .nav a {
+    background: none;
+    color: snow;
+    font-size: 15px;
+    text-decoration: none;
+
+
+}
+
+#sidebar .nav a:hover {
+    background: none;
+    color: #ECEFF1;
+}
+
+#sidebar .nav a i {
+    margin-right: 16px;
+}
+
+/* modal */
+.modal {
+  left: 15%;
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  top: 0;
+  width: 80%; 
+  height: 80%; 
+  margin: auto;
+  overflow: auto; 
+  /* background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close, #close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#close,.close:hover,
+#close,.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.detail{
+  width: 80%;
+    height: 100%;
+    margin:auto;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#detail {
+  text-align: left;
+  overflow-y: auto;
+  font-family:'Courier New', Courier, monospace ;
+font-weight: bold;
+
+}
+/* profile */
+
+#detail li{
+  border-bottom: 1px dotted #ccc;
+  color: #666666;
+    padding: 10px;
+}
+#detail .old_price{
+  text-decoration: line-through;
+}
+#detail .price{
+  color: red;
+}
+.detail img{
+  width: 440px;
+}
+.detail video{
+  width: 800px;
+}
+/* sort */
+.sort a{
+  border: 1px solid black;
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Courier New', Courier, monospace;
+}
+.sort a i{
+font-size: 25px;
+color: tomato;
+}
